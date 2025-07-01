@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\services\\impl\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:services\\impl\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\context\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:context\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\response\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:response\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\dtos\\newproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:dtos\\newproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|c:\\users\\usuario\\documents\\programaci\u00F3n\\microservicios.net\\challenge\\inventoryservice\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFEDD68-7A51-48AB-902A-AD6EF76870BD}|InventoryService.csproj|solutionrelative:dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:11:53.48Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:33:09.811Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\Impl\\ProductServiceImpl.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "RelativeToolTip": "Services\\Impl\\ProductServiceImpl.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowBQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:32:53.353Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T08:53:31.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:00:46.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Context\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "Context\\InventoryContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Context\\InventoryContext.cs",
+              "RelativeToolTip": "Context\\InventoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:49:12.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryService",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\InventoryService.csproj",
+              "RelativeDocumentMoniker": "InventoryService.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\InventoryService.csproj",
+              "RelativeToolTip": "InventoryService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T20:38:01.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T08:31:00.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T20:53:53.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Response\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Response\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Response\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Response\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T08:15:21.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dtos\\NewProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\NewProductDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dtos\\NewProductDto.cs",
+              "RelativeToolTip": "Dtos\\NewProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:40:32.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dtos\\ProductoDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductoDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Dtos\\ProductoDto.cs",
+              "RelativeToolTip": "Dtos\\ProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:37:45.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programaci\u00F3n\\Microservicios.NET\\Challenge\\InventoryService\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:41:06.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

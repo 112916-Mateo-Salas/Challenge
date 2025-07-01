@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\messaging\\interfaces\\irabbitpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\messaging\\interfaces\\irabbitpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\repositories\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\repositories\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\services\\impl\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\services\\impl\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\enable_plugins.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:enable_plugins.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\consumers\\inventoryconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\consumers\\inventoryconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\messaging\\impl\\rabbitpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\messaging\\impl\\rabbitpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\notificacionesservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\notificacionesservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\repositories\\impl\\logrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\repositories\\impl\\logrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\notificacionesservice\\data\\notificaciondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B52628-B173-4131-9222-A845EC9A9FF1}|NotificacionesService\\NotificacionesService.csproj|solutionrelative:notificacionesservice\\data\\notificaciondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|c:\\users\\usuario\\documents\\programacion\\microservicios.net\\challenge\\microservice\\inventoryservice\\dockerfile.original||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8BD7DAE2-0882-465E-9AE7-81302D040B2D}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\dockerfile.original||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-01T09:24:36.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Program.cs",
+              "RelativeToolTip": "InventoryService\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T09:44:17.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "RelativeToolTip": "InventoryService\\Services\\Impl\\ProductServiceImpl.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:22:26.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Repositories\\Interfaces\\ILogRepository.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Repositories\\Interfaces\\ILogRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Repositories\\Interfaces\\ILogRepository.cs",
+              "RelativeToolTip": "NotificacionesService\\Repositories\\Interfaces\\ILogRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:54:14.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Program.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Program.cs",
+              "RelativeToolTip": "NotificacionesService\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:11:36.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\appsettings.json",
+              "RelativeDocumentMoniker": "NotificacionesService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\appsettings.json",
+              "RelativeToolTip": "NotificacionesService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T15:11:17.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Dockerfile",
+              "RelativeDocumentMoniker": "InventoryService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Dockerfile",
+              "RelativeToolTip": "InventoryService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T09:24:24.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Dockerfile",
+              "RelativeDocumentMoniker": "NotificacionesService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Dockerfile",
+              "RelativeToolTip": "NotificacionesService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T15:14:46.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRabbitPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Messaging\\Interfaces\\IRabbitPublisher.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Messaging\\Interfaces\\IRabbitPublisher.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Messaging\\Interfaces\\IRabbitPublisher.cs",
+              "RelativeToolTip": "InventoryService\\Messaging\\Interfaces\\IRabbitPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:13:45.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "enable_plugins.txt",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\enable_plugins.txt",
+              "RelativeDocumentMoniker": "enable_plugins.txt",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\enable_plugins.txt",
+              "RelativeToolTip": "enable_plugins.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-01T15:26:25.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NotificacionesService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\appsettings.Development.json",
+              "RelativeToolTip": "NotificacionesService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T15:20:07.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\appsettings.json",
+              "RelativeToolTip": "InventoryService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T09:41:09.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "InventoryService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\appsettings.Development.json",
+              "RelativeToolTip": "InventoryService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T09:43:08.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventoryConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Consumers\\InventoryConsumer.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Consumers\\InventoryConsumer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Consumers\\InventoryConsumer.cs",
+              "RelativeToolTip": "NotificacionesService\\Consumers\\InventoryConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:01:44.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RabbitPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Messaging\\Impl\\RabbitPublisher.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Messaging\\Impl\\RabbitPublisher.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Messaging\\Impl\\RabbitPublisher.cs",
+              "RelativeToolTip": "InventoryService\\Messaging\\Impl\\RabbitPublisher.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:14:04.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LogRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Repositories\\Impl\\LogRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Repositories\\Impl\\LogRepositoryImpl.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Repositories\\Impl\\LogRepositoryImpl.cs",
+              "RelativeToolTip": "NotificacionesService\\Repositories\\Impl\\LogRepositoryImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:55:04.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotificacionDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Data\\NotificacionDbContext.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Data\\NotificacionDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Data\\NotificacionDbContext.cs",
+              "RelativeToolTip": "NotificacionesService\\Data\\NotificacionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:45:53.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificacionesService.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\NotificacionesService.csproj",
+              "RelativeDocumentMoniker": "NotificacionesService\\NotificacionesService.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\NotificacionesService.csproj",
+              "RelativeToolTip": "NotificacionesService\\NotificacionesService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-01T14:41:25.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryLog.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Models\\InventoryLog.cs",
+              "RelativeDocumentMoniker": "NotificacionesService\\Models\\InventoryLog.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\NotificacionesService\\Models\\InventoryLog.cs",
+              "RelativeToolTip": "NotificacionesService\\Models\\InventoryLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:43:39.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InventoryService.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\InventoryService.csproj",
+              "RelativeDocumentMoniker": "InventoryService\\InventoryService.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\InventoryService.csproj",
+              "RelativeToolTip": "InventoryService\\InventoryService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-01T13:19:33.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InventoryService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InventoryService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACkAAAAAAAAAAABRwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T09:57:45.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T09:24:07.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dockerfile.original",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Dockerfile.original",
+              "RelativeDocumentMoniker": "InventoryService\\Dockerfile.original",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Programacion\\Microservicios.NET\\Challenge\\MicroService\\InventoryService\\Dockerfile.original",
+              "RelativeToolTip": "InventoryService\\Dockerfile.original",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-01T09:24:20.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
