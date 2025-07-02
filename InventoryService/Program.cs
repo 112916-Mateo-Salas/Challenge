@@ -1,10 +1,13 @@
 using InventoryService.Context;
+using InventoryService.Messaging.Impl;
+using InventoryService.Messaging.Interfaces;
 using InventoryService.Repositories.Impl;
 using InventoryService.Repositories.Interfaces;
 using InventoryService.Response;
 using InventoryService.Services.Impl;
 using InventoryService.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +25,16 @@ builder.Services.AddScoped<IProductRepository, ProductRepositoryImpl>();
 
 builder.Services.AddScoped<IProductService, ProductServiceImpl>();
 
+builder.Services.AddScoped<IRabbitPublisher, RabbitPublisher>();
+
+
 //builder.Services.AddTransient<ExceptionHandlerMiddleware>();
+
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(80); // HTTP en el contenedor
+    // No pongas HTTPS en contenedores si no hay certificado
+});
 
 
 var app = builder.Build();
@@ -47,6 +59,7 @@ app.UseCors(options =>
     .AllowAnyMethod()
     .AllowAnyOrigin();
 });
+
 
 app.UseHttpsRedirection();
 

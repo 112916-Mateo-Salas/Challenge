@@ -1,4 +1,5 @@
 ﻿using InventoryService.Dtos;
+using InventoryService.Messaging.Interfaces;
 using InventoryService.Models;
 using InventoryService.Repositories.Interfaces;
 using InventoryService.Response;
@@ -9,10 +10,13 @@ namespace InventoryService.Services.Impl
     public class ProductServiceImpl : IProductService
     {
         private readonly IProductRepository _productRepository;
+        private readonly IRabbitPublisher _publisher;
 
-        public ProductServiceImpl(IProductRepository productRepository)
+
+        public ProductServiceImpl(IProductRepository productRepository, IRabbitPublisher rabbitPublisher)
         {
             _productRepository = productRepository;
+            _publisher = rabbitPublisher;
         }
         public async Task<bool> deleteProduct(Guid id)
         {
@@ -22,6 +26,8 @@ namespace InventoryService.Services.Impl
                 if (producto != null)
                 {
                     await _productRepository.DeleteProduct(producto);
+                    var objet = new { Accion = "Se elimino el producto", Product = producto };
+                    await _publisher.Publish(objet, "product.deleted");
                     return true;
                 }
                 return false;
@@ -112,6 +118,8 @@ namespace InventoryService.Services.Impl
                     Stock = producto.Stock,
                     Categoria = producto.Categoria,
                 };
+                var objet = new { Accion = "Se creo el producto", Product = productDto };
+                _publisher.Publish(objet, "product.created");
                 return productoDto ;
 
 
@@ -134,9 +142,11 @@ namespace InventoryService.Services.Impl
                     productoExist.Precio = productDto.Precio;
                     productoExist.Categoria = productDto.Categoria;
                     await _productRepository.UpdateProduct(productoExist);
-                    
+                    var objet = new { Accion = "Se actualizo el producto",Product = productoExist };
+                    _publisher.Publish(objet, "product.updated");
                     return true;
                 }
+                
                 return false;
             } catch (Exception ex)
             {
