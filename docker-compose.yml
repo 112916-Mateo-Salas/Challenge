@@ -1,7 +1,7 @@
 
 services:
   rabbitmq:
-    image: rabbitmq:4.1.0-management
+    image: rabbitmq:3.12-management
     container_name: rabbitmq
     restart: always
     tty: true
@@ -9,8 +9,6 @@ services:
     ports:
       - "5672:5672" #puerto default de RabbitMQ
       - "15672:15672"  #interfaz de rabbitMQ
-    # volumes:
-    #   - ./enable_plugins:/etc/rabbitmq/enabled_plugins:ro
   
 
   sqlserver:
