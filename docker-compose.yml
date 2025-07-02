@@ -1,0 +1,54 @@
+
+services:
+  rabbitmq:
+    image: rabbitmq:4.1.0-management
+    container_name: rabbitmq
+    restart: always
+    tty: true
+    stdin_open: true
+    ports:
+      - "5672:5672" #puerto default de RabbitMQ
+      - "15672:15672"  #interfaz de rabbitMQ
+    # volumes:
+    #   - ./enable_plugins:/etc/rabbitmq/enabled_plugins:ro
+  
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong!Passw0rd -Q 'select 1'"]
+      interval: 10s
+      retries: 5
+
+  inventoryservice:
+    build:
+      context: ./InventoryService
+    container_name: publisher
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sqlserver
+      - rabbitmq
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ProductDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True
+
+
+  subscriber:
+    build:
+      context: ./NotificacionesService
+    container_name: subscriber
+    depends_on:
+      - sqlserver
+      - rabbitmq
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=NotificationDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True
+
+
+  
+
+  
