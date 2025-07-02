@@ -60,25 +60,6 @@ app.UseCors(options =>
     .AllowAnyOrigin();
 });
 
-app.MapPost("/enviarMensaje", async (IServiceProvider serviceProvider, string name, string lastname, string phonenumber) =>
-{
-    var factory = new ConnectionFactory()
-    {
-        HostName = "rabbitmq",
-        Port = 5672,
-        UserName = "guest",
-        Password = "guest"
-    };
-    using var connection = await factory.CreateConnectionAsync();
-    using var channel = await connection.CreateChannelAsync();
-    await channel.QueueDeclareAsync(queue:"amines_queue",durable:true,exclusive:false,autoDelete:false,arguments:null);
-    var message = new {Name = name, Lastname = lastname,  Phonenumber = phonenumber};
-    var body = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(message);
-    await channel.BasicPublishAsync(exchange:"",
-        routingKey:"amines_queue",
-        body:body);
-    return Results.Ok("Message sent successfully");
-});
 
 app.UseHttpsRedirection();
 

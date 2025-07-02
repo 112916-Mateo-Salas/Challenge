@@ -21,7 +21,7 @@ namespace NotificacionesService.Consumers
             _scopeFactory = serviceScopeFactory;
         }
 
-        protected override async Task<Task> ExecuteAsync(CancellationToken stoppingToken)
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var factory = new ConnectionFactory()
             {
@@ -31,10 +31,12 @@ namespace NotificacionesService.Consumers
                 Password = "guest"
             };
 
-            using var connection = await factory.CreateConnectionAsync();
-            using var channel = await connection.CreateChannelAsync();
+            Console.WriteLine($"Ingreso a InventoryConsumer de mi NotificacionesService ");
 
-            await channel.ExchangeDeclareAsync("inventory_exchange", ExchangeType.Direct);
+            await using var connection = await factory.CreateConnectionAsync();
+            await using var channel = await connection.CreateChannelAsync();
+
+            await channel.ExchangeDeclareAsync("inventory_exchange", ExchangeType.Direct,durable:true);
 
             string[] routingKeys = { "product.created", "product.updated", "product.deleted" };
 
@@ -44,26 +46,35 @@ namespace NotificacionesService.Consumers
                 await channel.QueueBindAsync(queue: key, exchange: "inventory_exchange", routingKey: key);
 
                 var consumer = new AsyncEventingBasicConsumer(channel);
-                consumer.ReceivedAsync += async (_, ea) =>
+                consumer.ReceivedAsync += async (sender, eventArgs) =>
                 {
-                    var json = Encoding.UTF8.GetString(ea.Body.ToArray());
+                    var json = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
+
+                    Console.WriteLine($"[✔] Recibido evento '{eventArgs.RoutingKey}': {json}");
 
                     using var scope = _scopeFactory.CreateScope();
-                    var repo = scope.ServiceProvider.GetRequiredService<ILogRepository>();
+                    var logRepository = scope.ServiceProvider.GetRequiredService<ILogRepository>();
 
                     var log = new InventoryLog
                     {
-                        EventType = ea.RoutingKey,
+                        EventType = eventArgs.RoutingKey,
                         ProductJson = json
                     };
 
-                    await repo.AddLog(log);
+                    await logRepository.AddLog(log);
+                    await ((AsyncEventingBasicConsumer)sender).Channel.BasicAckAsync(eventArgs.DeliveryTag, multiple: false);
                 };
 
-                await channel.BasicConsumeAsync(queue: key, autoAck: true, consumer: consumer);
+                await channel.BasicConsumeAsync(queue: key, autoAck: false, consumer: consumer);
+
+                
             }
 
-            return Task.CompletedTask;
+            var completion = new TaskCompletionSource();
+            stoppingToken.Register(() => completion.SetResult());
+            await completion.Task;
+
+
         }
     }
 }
